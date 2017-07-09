@@ -1,7 +1,7 @@
 import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
-import {containerElement} from './what-is-react-fundamental-concepts/elements';
+import articleElement from './jsx/article';
 
-ReactDOM.render(containerElement, document.getElementById('root'));
+ReactDOM.render(articleElement, document.getElementById('root'));
 registerServiceWorker();
