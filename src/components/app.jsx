@@ -13,7 +13,7 @@ export default function App(props) {
             <p>{props.whatIsAComponentText2}</p>
 
 
-            <h1 className="title">Functional Components</h1>
+            <h1 className="title">Functional (stateless) Components</h1>
             <p>The simplest way to define a component is to write a JavaScript function:</p>
             <pre className="pre">
                 <code>{props.codeFunctionalComponent}</code>
