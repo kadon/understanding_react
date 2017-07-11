@@ -1,7 +1,8 @@
 import React from 'react';
 import './elements.css';
 import {
-    jsxFeatures
+    jsxFeatures,
+    reactDomRenderText
 } from './texts';
 
 const features = jsxFeatures.map((feature) => <li>{feature}</li>);
@@ -14,6 +15,7 @@ export default () => (
                 {features}
             </ul>
             <h2>It is {new Date().toLocaleTimeString()}, React Only Updates What is Necessary</h2>
+            <p><code>ReactDOM.render()</code>{reactDomRenderText}</p>
         </article>
     </div>
 );
