@@ -1,8 +1,9 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import React from 'react';
+//import WordAdder from './components/reconciliation0';
+//import WordAdder from './components/reconciliation1';
+import WordAdder from './components/reconciliation2';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<WordAdder />, document.getElementById('root'));
 registerServiceWorker();
